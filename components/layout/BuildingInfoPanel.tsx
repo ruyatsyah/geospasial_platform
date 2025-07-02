@@ -132,9 +132,7 @@ export default function BuildingInfoPanel() {
                     colorClass: "bg-gray-500",
                     bgClass: "bg-gray-50 dark:bg-gray-950/30",
                     value:
-                      selectedFeature.properties["Sampah Anorganik (kg)"] ??
-                      selectedFeature.properties["sampah Anorganik (kg)"] ??
-                      0,
+                      selectedFeature.properties["Sampah Anorganik (kg)"] ?? 0,
                   },
                 ].map((item) => (
                   <div
@@ -176,9 +174,7 @@ export default function BuildingInfoPanel() {
                 {
                   type: "Anorganic",
                   value:
-                    selectedFeature.properties["Sampah Anorganik (kg)"] ??
-                    selectedFeature.properties["sampah Anorganik (kg)"] ??
-                    0,
+                    selectedFeature.properties["Sampah Anorganik (kg)"] ?? 0,
                   color: "#6b7280",
                 },
               ].map((item) => {
